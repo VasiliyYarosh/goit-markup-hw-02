@@ -1,0 +1,225 @@
+/*-------------------------------------------------------------Обнулення стилів-----------------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*----------------------------------------------------------------Кінець обнулення----------------------------------------------------------------------*/
+
+
+
+
+/*---------------about header---------------*/
+header {
+    color: #212121;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+header a {
+    text-decoration: none;
+    color: #212121;
+}
+
+header a:hover {
+    color: rgb(33, 150, 243);
+}
+
+header a:focus {
+    color: rgb(33, 150, 243);
+}
+
+.logo {
+    background-color: #757575;
+}
+
+.hrefs {
+    color: #757575;
+}
+
+/*-------------------Загальні стилі------------------------*/
+
+body {
+    font-family: 'Roboto', 'Raleway';
+    color: #212121;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/*-----------------about header-------------------*/
+
+header {
+    color: #212121;
+}
+
+/*
+.header a:hover {
+    color: rgb(33, 150, 243);
+}
+
+.header a:hover {
+    color: rgb(33, 150, 243);
+}
+
+.hero {
+    padding: 100px;
+    background-color: rgb(47, 48, 58);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hero-title {
+    color: #fff;
+}
+logo {
+    color: wheat;
+    background-color: brown;
+
+    font-size: 26;
+    font-family: 'Roboto';
+}
+
+.nav-bar{
+    font-family: serif;
+}
+
+*/
+/*------------------about body------------------------*/
+
+/*------------------about footer-------------------------------------------------*/
+.footer {
+    background-color: #212121;
+}
+
+.logo-web {
+    color: rgb(33, 150, 243);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo-studio {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: bold;
+}
+
+footer ul a {
+    color: #757575;
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+.address-map {
+    color: white;
+}
+
+.footer ul a:hover {
+    color: rgb(33, 150, 243);
+}
+
+.footer ul a:focus {
+    color: rgb(33, 150, 243);
+}
+
+.style-footer {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*
+.address-style {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+}*/
