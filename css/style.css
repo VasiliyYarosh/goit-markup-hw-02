@@ -1,225 +1,260 @@
-/*-------------------------------------------------------------Обнулення стилів-----------------------------------------------------------*/
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-
-*,
-*:before,
-*:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-:focus,
-:active {
-    outline: none;
-}
-
-a:focus,
-a:active {
-    outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-    display: block;
-}
-
-html,
 body {
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 14px;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-input,
-button,
-textarea {
-    font-family: inherit;
-}
-
-input::-ms-clear {
-    display: none;
+    font-family: 'Roboto', 'Raleway', serif;
+    list-style-type: none;
 }
 
 button {
     cursor: pointer;
 }
 
-button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
-}
+/*--------------------------------------------------------------HEADER-------------------------------------------------------------*/
+.header {
+    background-color: rgb(79, 79, 109);
 
-a,
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-ul li {
-    list-style: none;
-}
-
-img {
-    vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: inherit;
-    font-weight: 400;
-}
-
-/*----------------------------------------------------------------Кінець обнулення----------------------------------------------------------------------*/
-
-
-
-
-/*---------------about header---------------*/
-header {
-    color: #212121;
-    font-family: 'Roboto';
-    font-size: 14px;
 }
 
 header a {
     text-decoration: none;
-    color: #212121;
+    list-style-type: none;
 }
 
-header a:hover {
-    color: rgb(33, 150, 243);
-}
-
+header a:hover,
 header a:focus {
     color: rgb(33, 150, 243);
 }
 
-.logo {
-    background-color: #757575;
-}
-
-.hrefs {
-    color: #757575;
-}
-
-/*-------------------Загальні стилі------------------------*/
-
-body {
-    font-family: 'Roboto', 'Raleway';
-    color: #212121;
-    font-style: normal;
-    font-weight: 400;
-}
-
-
-/*-----------------about header-------------------*/
-
-header {
-    color: #212121;
-}
-
-/*
-.header a:hover {
-    color: rgb(33, 150, 243);
-}
-
-.header a:hover {
-    color: rgb(33, 150, 243);
-}
-
-.hero {
-    padding: 100px;
-    background-color: rgb(47, 48, 58);
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.hero-title {
-    color: #fff;
-}
-logo {
-    color: wheat;
-    background-color: brown;
-
-    font-size: 26;
-    font-family: 'Roboto';
-}
-
-.nav-bar{
-    font-family: serif;
-}
-
-*/
-/*------------------about body------------------------*/
-
-/*------------------about footer-------------------------------------------------*/
-.footer {
-    background-color: #212121;
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .logo-web {
     color: rgb(33, 150, 243);
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: bold;
 }
 
 .logo-studio {
     color: #fff;
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: bold;
 }
 
-footer ul a {
-    color: #757575;
-    text-align: left;
-    margin-left: 10%;
-}
-
-
-.address-map {
-    color: white;
-}
-
-.footer ul a:hover {
-    color: rgb(33, 150, 243);
-}
-
-.footer ul a:focus {
-    color: rgb(33, 150, 243);
-}
-
-.style-footer {
-    font-family: 'Roboto';
+.header-link {
+    font-weight: 500;
     font-size: 14px;
-    font-weight: 300;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header-href {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
     font-style: normal;
 }
 
-/*
-.address-style {
-    color: white;
-    font-family: 'Roboto';
+/*----------------------------------------------------------------MAIN------------------------------------------------------------*/
+
+.hero {
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 215px;
+}
+
+.hero-btn {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+}
+
+.hero-btn:hover {
+    background-color: rgb(33, 150, 243);
+    color: #fff;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.main-ithem-haeder {
+    font-weight: 700;
     font-size: 14px;
-    font-weight: 300;
-}*/
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+
+.main-ithem-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.main-ithem {
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-ithem-haeder {
+    font-style: normal;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.header-about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.ithem-team-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.ithem-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
+/*-----------------------------------------------------------Portfolio------------------------------------------------------------*/
+.style-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.style-btn:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    width: 73px;
+    height: 38px;
+    left: 512px;
+    top: 174px;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.orient-btn {
+    display: inline-block;
+}
+
+
+.products-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.about-product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
+/*--------------------------------------------------------FOOTER---------------------------------------------------------------------*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+    color: rgb(33, 150, 243);
+}
+
+.address-map {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+
+.style-footer {
+    list-style-type: none;
+}
